@@ -53,11 +53,11 @@ class _SignUpViewState extends State<SignUpView> {
                 const SizedBox(height: 40),
                 RichText(
                   text: TextSpan(
-                    text: "Don't have an account?",
+                    text: "Already have an account?",
                     style: const TextStyle(fontSize: 16),
                     children: [
                       TextSpan(
-                          text: " Sign up",
+                          text: " Login",
                           style: const TextStyle(
                               color: Pallete.blueColor, fontSize: 16),
                           recognizer: TapGestureRecognizer()
